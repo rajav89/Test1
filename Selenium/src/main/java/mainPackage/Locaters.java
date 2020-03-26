@@ -5,8 +5,7 @@ import org.openqa.selenium.By;
 public interface Locaters {
 	
 	
-	
-	//google search page
+
 	public static By SearchBox = By.name("q");
 	public static By searchItem = By.xpath("//div[@role='option']");
 	//google search page suggestion
